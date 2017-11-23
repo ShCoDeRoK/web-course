@@ -9,4 +9,5 @@ $(document).ready(function () {
     $('#root').append('<ul></ul>');
     $('#root').append('<input id="add_task_input"> <button id="add_task">Добавить</button>');
     $('#add_task').click(function(){addElement($('#add_task_input').val())});
+    addElement('Лол! Кек! Чебурек!');
 });
